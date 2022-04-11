@@ -8,7 +8,7 @@ class TPQueue {
     T arr[size];
     int first, last;
  public:
-    TQueue() : first(0), last(0) {}
+    TPQueue() : first(0), last(0) {}
     void push(T x) {
          if (last - first >= size) {
              throw std::string("Full!");
